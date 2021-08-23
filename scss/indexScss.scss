@@ -1,0 +1,15 @@
+/* GLOBALES */
+
+@import './normalize';
+@import './variables';
+
+/* PARTIALS */
+@import 'partials/header';
+@import 'partials/footer';
+
+/* PAGINAS */
+@import './index';
+@import './menu';
+@import './zapatillas';
+@import './nosotros';
+@import './ofertas';

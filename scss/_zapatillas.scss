@@ -1,0 +1,45 @@
+/*MAIN ZAPATILLAS*/
+.main-zapatillas{
+    height: 70vh;
+    
+    .containerTable {
+        caption-side: top !important;
+        margin: 0 auto;
+        border: 2px solid black;
+        border-collapse: collapse;
+        
+        .containerTable__caption {
+            text-align: center !important;
+        }
+        .containerTable__thead {
+            .containerTable__thead__tr {
+                th {
+                    border: 2px solid black;
+                    border-collapse: collapse;
+                    text-align: center !important;
+                }
+                td {
+                    border: 2px solid black;
+                    border-collapse: collapse;
+                    text-align: center !important;
+                }
+            }
+        }
+        .containerTable__tbody {
+            .containerTable__tbody__tr {
+                th {
+                    border: 2px solid black;
+                    border-collapse: collapse;
+                    text-align: center !important;
+                }
+                td {
+                    border: 2px solid black;
+                    border-collapse: collapse;
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
+
+ 

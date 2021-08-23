@@ -1,0 +1,56 @@
+/* https://www.colorzilla.com/gradient-editor/ */
+/* W3school usar */ /* resetear css IMPORTANTE */
+/* https://sass-lang.com/guide */
+
+/*BODY INDEX*/
+
+#body-index {
+    background-color: var(--jonquil);
+}
+
+/*HEADER INDEX*/
+#header-index{
+    height: 10vh;
+    background-color: var(--jonquil);
+}
+
+/*MAIN INDEX*/
+#main-index {
+    background-image: radial-gradient(ellipse at center, #ffffff 0%,#fcff7c 32%,#fcff59 50%,rgb(240, 202, 15) 65%,#f0c808ff 100%);
+
+    .containerImage {
+        width: 100%;
+
+        .containerImage__center {
+            justify-content: center;
+            
+            #logoIndex {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 300px;
+                height: 300px;
+                transition: height 1s, width 1s ; 
+            }
+            
+            #logoIndex:hover {
+                height: 450px;
+                width: 450px;
+                /*transform: rotate(90deg);*/
+            }
+        }
+    }
+}
+
+/*FOOTER INDEX*/
+
+.footer-index{
+    height: 25vh;
+}
+
+/*Los !important fueron puestos para Bootstrap*/
+.habilitada {
+    color: var(--old-lace) !important;
+}
+
+
+

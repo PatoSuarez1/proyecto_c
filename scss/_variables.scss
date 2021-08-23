@@ -1,0 +1,36 @@
+/*Variables aca poner paleta de colores*/
+:root{
+    --rich-black-fogra-39: #05080bff;
+    --gunmetal: #052430ff;
+    --maximum-red: #dd1c1aff;
+    --old-lace: #fffaebff;
+    --jonquil: #f0c808ff;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerUno {
+    display: grid;
+}
+
+/*VARIABLES PARA DESAFIO*/
+/*ejercicio maps*/
+$colors: (
+    nosotros: #f0c808ff,
+    zapatillas: #f0c808ff,
+    ofertas: #f0c808ff,
+    menu: #052430ff
+);
+
+@each $key, $color in $colors {
+    .main-#{$key} {
+        background-color: $color;
+    }
+}

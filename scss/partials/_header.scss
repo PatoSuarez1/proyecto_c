@@ -1,0 +1,106 @@
+/*HEADER MENU Y CONTENIDO*/
+
+header {
+    height: 15vh;
+    background-color: var(--gunmetal);
+    align-items: center;
+
+    .containerLogo {
+        width: 50%;
+
+        &__logo {
+            margin-left: 2rem;
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+    .containerNav {
+        width: 50%;
+
+        .containerNav__navegacion {
+            font-size: 1.5rem;
+            justify-content: flex-end;
+            gap: 2rem;
+
+            li {
+                a {
+                    padding: 1rem 1.5rem;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (max-width: 420px) {
+    .flex-row {
+        flex-direction: column !important;
+    }
+
+    header {
+        flex-direction: column !important;
+        height: auto;
+        
+        .containerLogo {
+            width: auto;
+
+            .containerLogo__logo {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+        .containerNav {
+
+            .containerNav__navegacion {
+                flex-direction: column !important;
+                align-items: center;
+            }
+            .containerNav__navegacion {
+                font-size: 1rem;
+                gap: 0.5rem;
+            }
+        }
+    }
+}  
+
+@media screen and (min-width: 421px) and (max-width: 720px) {
+    .flex-row {
+        flex-direction: column !important;
+    }
+
+    header {
+        flex-direction: column !important;
+        height: auto;
+        
+        .containerLogo {
+            width: auto;
+
+            .containerLogo__logo {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+        .containerNav {
+
+            .containerNav__navegacion {
+                flex-direction: column !important;
+                align-items: center;
+            }
+            .containerNav__navegacion {
+                font-size: 1rem;
+                gap: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1023px) {
+    
+    header {
+        
+        .containerNav__navegacion {
+            font-size: 1.5rem;
+            gap: 0.5rem;
+        }
+    }
+}
+

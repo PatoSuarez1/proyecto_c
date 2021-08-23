@@ -1,0 +1,30 @@
+/*MAIN NOSOTROS*/
+.main-nosotros {
+    height: 70vh;
+
+    .containerText {
+        .containerText__parrafo {
+            font-size: 25px;
+            background-color: var(--gunmetal);
+            color: var(--old-lace);
+            text-align: center;
+            width: 50%;
+            height: 200px;
+            margin: 0 auto; 
+            justify-content: center;
+            /*el body no tiene un alto definido, auto solo sirve para elemnto en bloque*/
+            /* border: solid black; *//*definirlo sirve para saber el fin */
+        }
+        .containerText__parrafoSiguientes {
+            font-size: 25px;
+            background-color: var(--gunmetal);
+            color: var(--old-lace);
+            text-align: center;
+            width: 90%;
+            height: 90px;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    }
+}
+
