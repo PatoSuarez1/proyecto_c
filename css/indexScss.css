@@ -487,9 +487,10 @@ footer {
     margin: 0 auto; }
 
 /*MAIN OFERTAS*/
-/*.mainOfertas {
-    background-color: var(--jonquil);
-}*/
-.main-ofertas h5, p {
+main h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--gunmetal); }
+
+main p {
   font-family: 'Noto Sans JP', sans-serif;
   color: var(--gunmetal); }
