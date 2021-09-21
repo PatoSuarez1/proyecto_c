@@ -1,35 +1,26 @@
-/*nomarlize*/
-*{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*Globales*/
-body {
-    font-family: 'Noto Sans JP', sans-serif !important;/*Puesto para Bootstrap*/
-    font-size: 62.5%; 
+
+html {
+    font-size: 62.5%;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
 }
 
-main {
-    h1 {
-        color: var(--old-lace);
-    }
-    h2 {
-        color: var(--old-lace);
-    }
-    
+body {
+    background-color: --culture !important;
 }
 
 a {
-    text-decoration: none;
-    color: var(--old-lace);
-    font-size: 1.2rem;
-}
-a:hover {
-    border: solid 0.1rem;
-    color: var(--old-lace);
+    text-decoration: none !important;
+    color: #161a1dff !important;
 }
 
-ul {
-    list-style-type: none;
+ul, li {
+    list-style: none;
+    list-style-type: none !important;
 }

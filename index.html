@@ -15,34 +15,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Link de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/indexScss.css"> 
+    <!--Link Css-->
+    <link rel="stylesheet" href="css/indexScss.css">
+    <!--Link Icono-->
+   <script src="https://kit.fontawesome.com/35050e35d8.js" crossorigin="anonymous"></script> 
 </head>
-<body id="body-index">
-    <header id="header-index">
+<body>
+    <header>
+        <h1><span><i class="far fa-hand-point-down"></i></span> Haz click aqui <span><i class="far fa-hand-point-down"></i></span></h1>
     </header>
     <main class="flex-row" id="main-index"><!--Inicio Main-->
         <nav class="containerImage">
             <ul class="flex-row containerImage__center">
                 <li>
-                     <a href="contenido-coolsteps/menu.html"><img src="multimedia/logocoolsteps__.jpeg" id="logoIndex" class="rounded mx-auto d-block"  alt="Logo-Coolsteps"></a>
+                     <a href="contenido-coolsteps/menu.html"><img src="multimedia/imgLogo.jpg" id="logoIndex" class="rounded mx-auto d-block"  alt="Logo-Coolsteps"></a>
                 </li>       
             </ul>
         </nav>
     </main><!--Fin Main-->
-    <footer class="flex-row container-fluid footer-index"><!--Inicio Footer-->
-        <nav>
-            <!--<ul class="redes flex-row"> -->
-            <ul class="nav">              
-                <li class="nav-item">
-                    <a class="nav-link habilitada fs-4" href="https://www.instagram.com/coolsteps__" target="_blank">Instagram</a>
-                </li>              
-                <li class="nav-item">
-                    <a class="nav-link habilitada fs-4" href="https://www.facebook.com/coolsteps__" target="_blank">Facebook</a>
-                </li>        
-                <li class="nav-item">
-                    <a class="nav-link disabled fs-4" href="#">Comentarios/Preg Frecuentes</a>
-                </li>       
-            </ul> 
+    <footer class="container-fluid"><!--Inicio Footer-->
+        <nav> 
+            <div class="encontrar">
+                <h3>Nuestras redes:</h3>
+                <ul>              
+                    <li>
+                        <a class="nav-link habilitada fs-4" href="https://www.instagram.com/coolsteps__" target="_blank"><i class="fab fa-instagram-square"> Instagram</i></a>
+                    </li>              
+                    <li>
+                        <a class="nav-link habilitada fs-4" href="https://www.facebook.com/coolsteps__" target="_blank"><i class="fab fa-facebook-f"> Facebook</i></a>
+                    </li> 
+                </ul>    
+            </div>
+            <div class="contacto">
+                <h3>Contacto creador:</h3>
+                <ul>
+                    <li>
+                        <a class="nav-link habilitada fs-4" target="_blank" href="www.linkedin.com/in/pato-suarez"><i class="fab fa-linkedin"> Linkedin</i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link habilitada fs-4" target="_blank" href="https://github.com/PatoSuarez1/proyecto_coderHouse.git"><i class="fab fa-github"> Github</i></a>
+                    </li>
+                </ul>
+            </div>  
+            <div class="proyecto">
+                <h3>Proyecto realizado con:</h3>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                    <li>Scss</li>
+                    <li>javascript</li>
+                </ul>
+            </div>           
         </nav>
     </footer><!--Fin Footer--> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>  

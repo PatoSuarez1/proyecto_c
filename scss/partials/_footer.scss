@@ -1,4 +1,43 @@
 /*FOOTER MENU Y CONTENIDO*/
+
+footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-color: #b1a7a6ff;
+    border-top: 2px solid #f5f3f4ff;
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        div {
+            flex-direction: column;
+            align-content: center;
+
+            li {
+                padding: 1px 0 1px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        height: 100%;
+        
+        nav {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                align-content: center;
+            }
+        }
+    }
+}
+/*
 footer {
     height: 15vh;
     background-color: var(--gunmetal);
@@ -20,6 +59,7 @@ footer {
         }
     }
 }
+
 
 @media screen and (max-width: 420px) {
     .flex-row {
@@ -74,3 +114,4 @@ footer {
         }
     }
 }
+*/

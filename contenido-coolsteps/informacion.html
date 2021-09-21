@@ -6,43 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--SEO-->
     <meta name="robots" content="index">
-    <meta name="description"  content="En nuestro Menu podras ver fotos propias que te dejaran apreciar la variedad y la calidad de nuestras Zapatillas">
-    <meta name="keywords" content="Zapatillas, Variedad, Coolsteps">
-    <title>Coolsteps | Nuestras Zapatillas</title>
-    <script></script>
-    <!--GOOGLE FONTS LINK-->
+    <meta name="description"  content="Quienes Somos? La Historia de Coolsteps contada en pocas palabras...">
+    <meta name="keywords" content="Coolsteps, Nosotros, Zapatillas, Historia">
+    <title>Coolsteps | Quienes Somos</title>
+    <!-- sacado de google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <!-- Link de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!--Link Css-->
     <link rel="stylesheet" href="../css/indexScss.css">
-   <!--Link Icono-->
-   <script src="https://kit.fontawesome.com/35050e35d8.js" crossorigin="anonymous"></script>
+    <!--Link Icono-->
+    <script src="https://kit.fontawesome.com/35050e35d8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header><!--Inicio Header-->
+    <header> <!--Inicio Header-->
         <nav class="menu">
             <label class="logo">Coolsteps</label>
-            <ul class="menu_items">    
+            <ul class="menu_items"> 
                 <li>
                     <a href="menu.html">Menu</a>
-                </li>    
+                </li>                          
                 <li>
                     <a href="ofertas.html">Ofertas</a>
-                </li>              
+                </li>   
                 <li>
                     <a href="informacion.html">Informacion</a>
-                </li>
-                <li id="formulario">
-                    <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                </li>     
+                <li>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         Registrarse
                     </a>
+              
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"          aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                          <h3 class="offcanvas-title" id="offcanvasExampleLabel">Coolsteps</h3>
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Coolsteps</h5>
                           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
@@ -60,37 +60,84 @@
                                     </div>
                                 </div>
                                 <div class="mb-2">
-                                    <label for="Email" class="form-label">Email:</label>
-                                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="pato.s@...">
-                                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo con nadie mas</div>
+                                  <label for="Email" class="form-label">Email:</label>
+                                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="pato.s@...">
+                                  <div id="emailHelp" class="form-text">Nunca compartiremos su correo con nadie mas</div>
                                 </div>
                                 <div class="mb-3">
                                     <label for="Password" class="form-label">Contraseña:</label>
                                     <input type="password" class="form-control" id="Password" placeholder="Soypato123">
                                 </div>
                                 <div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </form>
                         </div>
                     </div>
-                </li> 
-            </ul> 
+                </li>          
+            </ul>
             <span class="btn_menu">
                 <i class="fas fa-bars"></i>
-            </span>
+            </span> 
         </nav>
     </header><!--Fin Header-->
-    <main>
-        <section>
-            <h1>carousel</h1>
+    <main class="flex-col main-nosotros"><!--Inicio Main-->
+        <section class="containerText">
+            <h1>Quienes Somos?</h1>
+            <p>Somos Coolsteps un emprendimiento creado en el 2021, nos dedicamos integramente a la venta de zapatillas replicas. Realizamos ventas mayoristas y minoristas. </p>
+            <h2>Proceso de seleccion:</h2>
+            <p>Llevamos acabo un proceso de seleccion realizado por nuestros encargados de revision de producto, para asi por entregar el modelo pedido por nuestros clientes en perfectas condiciones.</p>
+            <h2>Ventas mayoristas:</h2>
+            <p>Si estas interesados en comenzar a vender nuestro producto simplemente se comunican con nosotros a traves de las redes sociales o el email. Otorgamos asesoriamiento de manera gratuita durante los primeros 3 meses y ofrecemos promociones constantemente. </p>
+        </section>        
+        <section class="main-zapatillas">
+            <table style="width:60%" class="containerTable" border>
+                <caption class="containerTable__caption">
+                   <h1> Modelos, Precios y Talles: </h1>
+                </caption>
+                <thead class="containerTable__thead">
+                    <tr class="containerTable__thead__tr">
+                        <th>Modelos</th>
+                        <th>Precios</th>
+                        <th>Talles</th>
+                    </tr>
+                </thead>
+                <tbody class="containerTable__tbody">
+                    <tr class="containerTable__tbody__tr">
+                        <th>Air Jordan</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                    <tr class="containerTable__tbody__tr">
+                        <th>Adidas Falcon</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                    <tr class="containerTable__tbody__tr">
+                        <th>Air Jordan</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                    <tr class="containerTable__tbody__tr">
+                        <th>Air Jordan</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                    <tr class="containerTable__tbody__tr">
+                        <th>Air Jordan</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                    <tr class="containerTable__tbody__tr">
+                        <th>Air Jordan</th>
+                        <td>$4000</td>
+                        <td>35 al 40</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <section>
-            <h2>Nuestros Modelos</h2>
-            <h3>un carousel por modelo</h3>
-        </section>
-    </main>
-    <footer class="container-fluid mt-3"><!--Inicio Footer-->
+    </main><!--Fin Main-->
+    <footer class="container-fluid"><!--Inicio Footer-->
         <nav> 
             <div class="encontrar">
                 <h3>Nuestras redes:</h3>
@@ -126,8 +173,7 @@
             </div>           
         </nav>
     </footer><!--Fin Footer--> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
-    <script src="../js/practica.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="../js/practica.js"></script>        
 </body>
 </html>
-

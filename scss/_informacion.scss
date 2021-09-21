@@ -1,4 +1,32 @@
-/*MAIN ZAPATILLAS*/
+/*MAIN NOSOTROS*/
+.main-nosotros {
+    height: 70vh;
+
+    .containerText {
+
+       h1 {
+           padding-left: 5px;
+           padding-right: 5px;
+           font-size: 20px;
+
+        }   
+
+        h2 {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 20px;
+        }
+
+        p {
+        color: var(--old-lace);
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+        }
+    }
+}
+
+/*SECTION ZAPATILLAS*/
 .main-zapatillas{
     height: 70vh;
     
@@ -43,3 +71,26 @@
 }
 
  
+@media screen and (max-width: 420px) {
+
+    .main-nosotros {
+        position: relative;
+
+        .containerText {
+            display: inline-block;
+            position: relative;
+        }
+    }
+    
+    
+
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 720px) {
+
+}
+
+@media screen and (min-width: 721px) and (max-width: 1023px) {
+
+}
