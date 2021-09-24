@@ -1,11 +1,44 @@
 /*MAIN OFERTAS*/
+body {
+    background-image: url(../multimedia/DSC_1900.jpg);
+}
+
 main {
-    h3 {
-        font-family: 'Noto Sans JP', sans-serif;
-        color: var(--gunmetal);
+    h2 {
+        margin: 10px 0 5px 20px;
+        display: inline-block;
+        font-family: 'Indie Flower', cursive;
+        font-weight: 900;
+        font-size: 20px;
+        background-color: #ffba08ff;
+        box-shadow: 5px 5px 5px 5px rgb(255, 188, 19);
     }
-    p {
-        font-family: 'Noto Sans JP', sans-serif;
-        color: var(--gunmetal);
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            flex-direction: row;
+        }
+        .card-body {
+            background-color: #ffba08ff;
+
+            .card-text {
+                font-family: 'Indie Flower', cursive;
+                font-weight: 900;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 952px) {
+    .card-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .card-text {
+        font-size: 14px;
     }
 }

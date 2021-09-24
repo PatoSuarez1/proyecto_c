@@ -2,13 +2,13 @@
 
 .menu {
     font-family: 'Indie Flower', cursive;
-    background-color: #b1a7a6ff;
+//    background-color: rgb(249, 253, 0);
     height: 75px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f5f3f4ff;
+    border-bottom: 1px solid black;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     
     .logo {
@@ -30,10 +30,10 @@
 
             .btn {
                 font-size: 18px;
-                background-color: #b1a7a6ff;
+                background-color: #54c800ff;
                 text-decoration: none;
                 border: none;
-                box-shadow: 5px 5px 5px 5px rgb(102, 96, 95) ;
+                box-shadow: 5px 5px 5px 5px rgb(76, 151, 0);
             }            
 
             a {
@@ -42,13 +42,18 @@
                 padding: 4px 12px;
                 text-decoration: none;
                 display: block;
-                
+                font-weight: 600;
             }
+        }
+        .active {
+            background-color: #ffba08ff;
+            box-shadow: 5px 5px 5px 5px rgb(255, 193, 35);
         }
     } 
 
     .menu_items li:hover {
-        background-color: rgb(139, 131, 130);
+        background-color: #ffba08ff;
+        box-shadow: 5px 5px 5px 5px rgb(255, 193, 35);
         transition: .6s;
     }
 }
@@ -81,24 +86,28 @@ ul.show {
 @media screen and (max-width: 858px) {
     .menu {
         height: 65px;
+        position: relative;
     }
     .btn_menu {
         display: inline-flex;
         position: relative;
     }
     .menu_items {
-        position: absolute;
+        position: absolute !important;
+        z-index: 2 !important;
         width: 100vw;
         height: calc(100% - 65px);
-        background-color: #b1a7a6ff;
         top: -100vh;
         text-align: center;
         transition: all .5s;
         flex-direction: column;
+        padding: 5px;
     }
     .menu_items li {
-        margin: 30px 0 0 0;
+        margin: 1px 122px 1px 122px !important;
         line-height: 30px;
+        background-color: #ffba08ff;
+        padding-bottom: 3px;
     }
 
     .menu_items li:hover {
@@ -116,6 +125,8 @@ ul.show {
     
     .menu_items li .btn {
         margin-right: 10px;
+        background-color: #ffba08ff !important;
+        box-shadow: none !important;
     }
 
     .btn_menu {
