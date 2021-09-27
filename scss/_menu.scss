@@ -17,22 +17,22 @@ main {
         display: flex;
         justify-content: space-evenly;
         margin-top: 5px;
-    picture {
-        flex-direction: row;
-                
-        .imageProduct {
-            width: 340px;
-            height: 430px;
-            border: 1px solid #f5f3f4ff;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
-            transition: height 1s, width 1s;
-                }
-                .imageProduct:hover {
-                    width: 360px;
-                    height: 450px;
-                }
+        picture {
+            flex-direction: row;
+                        
+            .imageProduct {
+                width: 340px;
+                height: 430px;
+                border: 1px solid #f5f3f4ff;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+                transition: height 1s, width 1s;
+            }
+            .imageProduct:hover {
+                width: 360px;
+                height: 450px;
             }
         }
+    }
     
 }
 

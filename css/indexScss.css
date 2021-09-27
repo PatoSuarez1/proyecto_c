@@ -289,6 +289,46 @@ main .animate__animated {
     width: 190px;
     height: 230px; } }
 
+#main_informacion {
+  height: 100vh; }
+  #main_informacion .secciones, #main_informacion .lista {
+    height: 33.33vh;
+    padding-left: 5px;
+    padding-bottom: 5px; }
+    #main_informacion .secciones div, #main_informacion .lista div {
+      background-color: #ffba08ff;
+      margin-right: 5px;
+      width: 100%;
+      border: 1px solid black;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); }
+      #main_informacion .secciones div p, #main_informacion .secciones div ul, #main_informacion .lista div p, #main_informacion .lista div ul {
+        font-size: 20px;
+        font-weight: 200;
+        font-family: 'indie flower', cursive; }
+      #main_informacion .secciones div p, #main_informacion .lista div p {
+        margin-left: 5px; }
+
+@media screen and (max-width: 952px) {
+  #main_informacion .lista ul li {
+    font-size: 15px;
+    font-weight: 100; }
+  #main_informacion .secciones div p {
+    font-size: 15px;
+    font-weight: 100; } }
+
+@media screen and (max-width: 858px) {
+  #main_informacion .lista h2 {
+    font-size: 16px;
+    box-shadow: none; }
+  #main_informacion .lista ul li {
+    font-size: 12px;
+    font-weight: 100; }
+  #main_informacion .secciones div h2 {
+    box-shadow: none; }
+  #main_informacion .secciones div p {
+    font-size: 12px;
+    font-weight: 100; } }
+
 /*MAIN OFERTAS*/
 body {
   background-image: url(../multimedia/DSC_1900.jpg); }
